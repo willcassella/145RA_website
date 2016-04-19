@@ -1,57 +1,41 @@
+/* "Welcome" div */
 
-#container {
-  width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
+#welcome-container {
+  text-align: center;
+  width: 100%;
+  padding: 75px 0px;
+  background-color: lightblue;
 }
 
-#name {
-  margin: 0px;
-  float: left;
+#welcome-text {
+    margin: 0px;
 }
 
-#social {
-  float: right;
+/* Page portal */
+
+#portal-container {
+    height: 470px;
 }
 
-.bordered {
-  border-style: solid;
-  border-color: black;
-  border-width: 1px;
+a.portal {
+    width: 50%;
+    height: 100%;
+    text-align: center;
 }
 
-div.header {
-  height:40px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  padding: 30px;
+.portal-text {
+    margin-top: 220px;
+    font-size: 35px;
 }
 
-div.content {
-  height:660px;
-  padding-top: 30px;
+#catalog-portal {
+    float: left;
+    background-color: lightgreen;
 }
 
-a.category {
-  float: left;
-  margin-left: 50px;
-  position: relative;
-}
-
-h1.category {
-  position: absolute;
-  margin: 0px;
-  bottom: 0px;
-  left: 0px;
-  color: red;
-}
-
-a.category {
-  width: 180px;
-  height: 600px;
-}
-
-div.welcome {
-  margin: 50px;
-  margin-top: 50px;
+#blog-portal {
+    float: right;
+    background-color: yellow;
+    background-image: url("../images/index/blog.png");
+    background-size: 200%;
 }

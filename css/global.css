@@ -1,0 +1,69 @@
+/* Useful classes */
+
+.centered {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bordered {
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+}
+
+/* Header elements */
+
+div.header-footer {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 40px;
+  padding: 30px;
+}
+
+#header-title-container {
+  float: left;
+}
+
+#header-title-text {
+  margin: 0px;
+  float: left;
+}
+
+#header-slogan-text {
+  margin: 0px 0px 0px 20px;
+  float: right;
+  width: 190px;
+}
+
+#header-links-container {
+  float: right;
+}
+
+#header-page-links {
+  float: left;
+  margin: 0px 20px 0px 0px;
+  padding: 0px 20px 0px 0px; 
+  border-width: 0px 1px 0px 0px;
+  border-style: solid;
+  text-align: right;
+  list-style: none;
+}
+
+#header-social-links {
+  float: right;
+}
+
+#social-container {
+  float: right;
+}
+
+img.social-link {
+  width: 40px;
+  height: 40px;
+}
+
+/* Page elements */
+
+#page-container {
+  width: 1000px;
+}
