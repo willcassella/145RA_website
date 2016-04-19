@@ -1,0 +1,57 @@
+
+#container {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#name {
+  margin: 0px;
+  float: left;
+}
+
+#social {
+  float: right;
+}
+
+.bordered {
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+}
+
+div.header {
+  height:40px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 30px;
+}
+
+div.content {
+  height:660px;
+  padding-top: 30px;
+}
+
+a.category {
+  float: left;
+  margin-left: 50px;
+  position: relative;
+}
+
+h1.category {
+  position: absolute;
+  margin: 0px;
+  bottom: 0px;
+  left: 0px;
+  color: red;
+}
+
+a.category {
+  width: 180px;
+  height: 600px;
+}
+
+div.welcome {
+  margin: 50px;
+  margin-top: 50px;
+}
