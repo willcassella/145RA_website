@@ -7,6 +7,7 @@ a.category {
   float: left;
   margin-left: 50px;
   position: relative;
+  background-color: #779ABF;
 }
 
 h1.category {
@@ -21,3 +22,4 @@ a.category {
   width: 180px;
   height: 600px;
 }
+
