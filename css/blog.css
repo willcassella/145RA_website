@@ -1,0 +1,42 @@
+/* Blog header */
+
+#blog-header {
+    padding: 40px 40px;
+    height: 60px;
+}
+
+#entry-nav-container {
+    float: left;
+    width: 81px;
+}
+
+#entry-date {
+    float: left;
+    border-width: 0px 1px 0px 0px;
+    border-style: solid;
+    margin: 0px;
+}
+
+.entry-nav-button {
+    float: left;
+    width: 40px;
+    height: 40px;
+}
+
+#entry-title {
+    float: left;
+    margin: 0px 15px;
+}
+
+/* Blog content */
+
+#entry-body {
+    margin: 0px;
+    padding: 40px 40px;
+}
+
+.entry-text {
+    margin: 0px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
