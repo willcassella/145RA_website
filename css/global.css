@@ -1,69 +1,58 @@
-/* Useful classes */
+/* Basic elements */
 
-.centered {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.bordered {
-  border-style: solid;
-  border-color: black;
-  border-width: 1px;
+body {
+  background-color: #7800FF;
+  margin: 0px;
 }
 
 /* Header elements */
 
-div.header-footer {
-  margin-top: 50px;
-  margin-bottom: 50px;
-  height: 40px;
-  padding: 30px;
+#header {
+  background: linear-gradient(#7800FF, #5400B2)
 }
 
-#header-title-container {
+#header-content {
+  width: 1000px;
+  height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #FFF;
+}
+
+#header-content a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+#header-title {
+  padding-top: 10px;
   float: left;
 }
 
-#header-title-text {
+#header-title h1 {
   margin: 0px;
   float: left;
 }
 
-#header-slogan-text {
+#header-title p {
   margin: 0px 0px 0px 20px;
-  float: right;
-  width: 190px;
-}
-
-#header-links-container {
-  float: right;
-}
-
-#header-page-links {
   float: left;
-  margin: 0px 20px 0px 0px;
-  padding: 0px 20px 0px 0px; 
-  border-width: 0px 1px 0px 0px;
-  border-style: solid;
-  text-align: right;
-  list-style: none;
 }
 
-#header-social-links {
-  float: right;
+#header-nav {
+  margin: 0px;
+  float: left;
 }
 
-#social-container {
-  float: right;
+#header-nav li {
+  padding: 20px 30px;
+  float: left;
+  display: block;
 }
 
-img.social-link {
-  width: 40px;
-  height: 40px;
+#header-nav li a {
+  font-size: 15px;
+	font-family: 'Patua One', cursive;
+	text-transform: uppercase;
 }
 
-/* Page elements */
-
-#page-container {
-  width: 1000px;
-}
