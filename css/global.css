@@ -98,8 +98,14 @@ p {
 }
 
 #footer-content {
-  height: 100px;
   width: 1000px;
   margin: 0 auto;
+  padding: 20px 0;
+}
+
+#footer-content p {
+  margin: 0;
+  font-size: 12px;
+  text-align: center;
 }
 
