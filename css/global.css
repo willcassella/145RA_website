@@ -91,6 +91,15 @@ p {
   margin: 0;
 }
 
+/* Body elements */
+
+#body-content {
+    width: 1000px;
+    margin: 30px auto;
+    background-color: #FFF;
+    height: 600px;
+}
+
 /* Footer elements */
 
 #footer {
@@ -108,4 +117,3 @@ p {
   font-size: 12px;
   text-align: center;
 }
-
