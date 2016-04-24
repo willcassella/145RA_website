@@ -21,3 +21,26 @@
     font-size: 15px;
     color: white;
 }
+
+#body-content {
+    width: 1000px;
+    margin: 30px auto;
+    height: 630px;
+}
+
+#cannon-news {
+    height: 300px;
+    margin-bottom: 30px;
+}
+
+#blog-info {
+    height: 300px;
+    width: 485px;
+    float: left;
+}
+
+#catalog-info {
+    height: 300px;
+    width: 485px;
+    float: right;
+}
