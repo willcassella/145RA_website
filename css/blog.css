@@ -30,6 +30,12 @@
 
 /* Blog content */
 
+#body-content {
+    width: 1000px;
+    margin: 30px auto;
+    background-color: #FFF;
+}
+
 #entry-body {
     margin: 0px;
     padding: 40px 40px;
