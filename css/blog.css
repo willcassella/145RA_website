@@ -1,3 +1,13 @@
+/* Banner */
+
+#banner {
+    height: 125px;
+    background: url("../images/blog/banner.jpg"), no-repeat;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
 /* Blog entry header */
 
 #entry-header {
@@ -28,7 +38,7 @@
     height: 40px;
 }
 
-/* Blog content */
+/* Body elements */
 
 #body-content {
     width: 1000px;
@@ -43,6 +53,6 @@
 
 #entry-body p {
     margin: 0px;
-    font-size: 14px;
+    font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
 }
