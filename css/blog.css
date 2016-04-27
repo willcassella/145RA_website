@@ -18,6 +18,7 @@
 #entry-header h1 {
     float: left;
     margin: 0px 15px;
+    font-family: sans-serif;
 }
 
 #entry-nav {
@@ -55,4 +56,10 @@
     margin: 0px;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+#volunteer-image {
+    width: 800px;
+    height: 435px;
+    margin: 30px auto;
 }
