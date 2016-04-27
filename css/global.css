@@ -84,6 +84,7 @@ p {
 }
 
 #banner-content h1 {
+    margin-top: 15px;
     position: absolute;
     top: 0;
     left: 0;
